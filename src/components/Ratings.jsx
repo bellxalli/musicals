@@ -1,4 +1,27 @@
 
+export default function RatingCard(){
+
+    return(
+
+        <div>
+
+            <p> RatingCard </p>
+
+            {/* Critic Ratings */}
+
+            {/* AUdience Ratings */}
+
+
+        </div>
+
+
+    )
+
+}
+
+
+
+
 export default function CriticRatings(){
 
     return(
@@ -10,8 +33,6 @@ export default function CriticRatings(){
         </div>
 
     )
-
-
 
 }
 
@@ -26,7 +47,5 @@ export default function AudienceRatings(){
         </div>
 
     )
-
-
 
 }
