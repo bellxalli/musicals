@@ -9,7 +9,11 @@ function App() {
   return (
     <>
       <Header />
-      
+      {
+        Musicals.forEach((m, index) => (
+          <Musical key={index} props={m} />
+        ))
+      }
       <Footer />
 
     </>

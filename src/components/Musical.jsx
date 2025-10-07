@@ -1,9 +1,20 @@
 import React from "react"
 
-function Musical()
+
+
+function Musical(props)
 {
     return (
-        <h1>hi</h1>
+        <div id={props.props.id}>
+            <hr />
+            <h1>{props.props.title}</h1>
+            <ul>
+                <li></li>
+            </ul>
+
+        </div>
+        
+
     )
 }
 
