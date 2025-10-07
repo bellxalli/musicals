@@ -22,7 +22,7 @@ export default function RatingCard(){
 
 
 
-export default function CriticRatings(){
+export function CriticRatings(){
 
     return(
 
@@ -36,7 +36,7 @@ export default function CriticRatings(){
 
 }
 
-export default function AudienceRatings(){
+export function AudienceRatings(){
 
     return(
 
