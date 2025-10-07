@@ -12,8 +12,8 @@ function Musical(props)
             <hr />
             <h2>{props.props.title}</h2>
 
-            <Ratings />
-            <BroadwayHit />
+            <Ratings musical={props}/>
+            <BroadwayHit musical={props}/>
 
             <p>{props.props.title} hit the stage in {props.props.year} and wirtten by 
                 {props.props.composer}. Tickets for this muscial average $250 per person.
@@ -27,10 +27,7 @@ function Musical(props)
                 ))}
             </ul>
         </div>
-        
-
     )
 }
 
 export default Musical;
-
