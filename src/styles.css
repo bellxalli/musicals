@@ -1,12 +1,19 @@
 html{
 
-    background-color: azure;
-
+    background-color: rgb(198, 227, 227);
 
 }
 
 header {
 
-    background-color: blue;
+    padding:10px;
+    background-color: rgb(208, 255, 255);
+
+}
+
+footer{
+    
+    padding:10px;
+    background-color: rgb(208, 255, 255);
 
 }

@@ -5,12 +5,10 @@ export default function Footer(){
 
         <footer>
 
-            <p> Made by Xalli and Emily </p>
+            <h5> Made by Xalli and Emily </h5>
 
         </footer>
 
     )
-
-
 
 }

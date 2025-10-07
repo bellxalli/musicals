@@ -1,58 +1,35 @@
+export default function RatingCard(props) {
+  return (
+    <div>
 
-import musicals from "../data/musicals.json";
-
-
-export default function RatingCard(props){
-
-    return(
-
-        <div>
-
-    <div className="rating-card">
-            <h3>{props.title}</h3>
-
-        <div>
-
-        <CriticRatings critics={props.ratings.critics} />
-        <AudienceRatings audience={props.ratings.audience} />
-
-        </div>
+      <CriticRatings ratings={props.ratings} />
+      <AudienceRatings ratings={props.ratings} />
+      <BestRatings ratings={props.ratings} />
 
     </div>
+  )
+}
 
-        </div>
-    )
+export function CriticRatings({ ratings }) {
+
+  return <p>Critic Rating: {ratings.critics}/10</p>
 
 }
 
-export function CriticRatings({props}){
-
-    return(
-
-        
-
-        <div>
-            <p>Critic Rating: {props}/10</p>
-        </div>
-
-    )
+export function AudienceRatings({ ratings }) {
+  
+    return <p>Audience Rating: {ratings.audience}/10</p>
 
 }
 
-export function AudienceRatings({props}){
+export function BestRatings({ ratings }) {
+  
+    if (ratings.critics > 9 && ratings.audience > 9) {
+    return <p>Rated great by all! 👍</p>
+    } else {
 
-    return(
+        return <p> It's ok! </p>
 
-         <div>
-            <p>Audience Rating: {props}/10</p>
-        </div>
-
-    )
-
-}
-
-export function ExampleRatings() {
-
-  return <RatingCard musical={musicals.musicals[0]} />;
+    }
 
 }

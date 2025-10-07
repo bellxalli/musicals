@@ -112,13 +112,13 @@
       "durationMinutes": 140
     },
     {
-      "title": "Cats",
-      "year": 1981,
-      "composer": "Andrew Lloyd Webber",
-      "isBroadwayHit": true,
-      "genres": ["Fantasy", "Musical", "Family"],
-      "ratings": { "critics": 7.9, "audience": 8.5 },
-      "ticketPrice": 150,
+      "title": "Spider-Man: Turn Off the Dark",
+      "year": 2011,
+      "composer": "Bono and The Edge",
+      "isBroadwayHit": false,
+      "genres": ["Action", "Fantasy", "Musical"],
+      "ratings": { "critics": 6.0, "audience": 6.5 },
+      "ticketPrice": 120,
       "durationMinutes": 155
     }
   ]
