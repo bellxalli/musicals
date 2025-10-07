@@ -1,16 +1,33 @@
+import musicals from "../data/musicals.json";
 
-export default function BroadwayHit(){
+export default function BroadwayHit(props){
 
-    return(
+        {
+            if(props.isBroadwayHit){
 
-        <header>
+                return(
 
-            <p> true or false </p>
+                    <p> Broadway Hit! ⭐</p>
 
-        </header>
+                )
 
-    )
+                } else {
+
+                    return (
+
+                    <p> Not a Broadway Hit! 💔 </p>
+
+                    )
+
+                }
 
 
+    } 
+}
+
+
+export function ExampleHit() {
+
+  return <BroadwayHit musical={musicals.musicals[0]} />;
 
 }
