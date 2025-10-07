@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Hamilton",
+    "year": 2015,
+    "composer": "Lin-Manuel Miranda",
+    "isBroadwayHit": true,
+    "genres": ["Hip-Hop", "Historical", "Drama"],
+    "ratings": { "critics": 9.5, "audience": 9.8 },
+    "ticketPrice": 250,
+    "durationMinutes": 160
+  },
+  {
+    "title": "Wicked",
+    "year": 2003,
+    "composer": "Stephen Schwartz",
+    "isBroadwayHit": true,
+    "genres": ["Fantasy", "Musical", "Drama"],
+    "ratings": { "critics": 8.7, "audience": 9.2 },
+    "ticketPrice": 180,
+    "durationMinutes": 165
+  },
+  {
+    "title": "The Lion King",
+    "year": 1997,
+    "composer": "Elton John",
+    "isBroadwayHit": true,
+    "genres": ["Family", "Musical", "Adventure"],
+    "ratings": { "critics": 9.0, "audience": 9.5 },
+    "ticketPrice": 200,
+    "durationMinutes": 150
+  },
+  {
+    "title": "Chicago",
+    "year": 1975,
+    "composer": "John Kander",
+    "isBroadwayHit": true,
+    "genres": ["Jazz", "Musical", "Crime"],
+    "ratings": { "critics": 8.8, "audience": 9.0 },
+    "ticketPrice": 160,
+    "durationMinutes": 150
+  },
+  {
+    "title": "Les Misérables",
+    "year": 1980,
+    "composer": "Claude-Michel Schönberg",
+    "isBroadwayHit": true,
+    "genres": ["Drama", "Historical", "Musical"],
+    "ratings": { "critics": 9.2, "audience": 9.4 },
+    "ticketPrice": 175,
+    "durationMinutes": 170
+  },
+  {
+    "title": "Aladdin",
+    "year": 2014,
+    "composer": "Alan Menken",
+    "isBroadwayHit": true,
+    "genres": ["Fantasy", "Family", "Musical"],
+    "ratings": { "critics": 8.5, "audience": 9.0 },
+    "ticketPrice": 150,
+    "durationMinutes": 140
+  },
+  {
+    "title": "Phantom of the Opera",
+    "year": 1988,
+    "composer": "Andrew Lloyd Webber",
+    "isBroadwayHit": true,
+    "genres": ["Romance", "Drama", "Musical"],
+    "ratings": { "critics": 9.0, "audience": 9.3 },
+    "ticketPrice": 200,
+    "durationMinutes": 165
+  },
+  {
+    "title": "Mamma Mia!",
+    "year": 1999,
+    "composer": "Benny Andersson",
+    "isBroadwayHit": true,
+    "genres": ["Comedy", "Musical", "Romance"],
+    "ratings": { "critics": 8.0, "audience": 8.7 },
+    "ticketPrice": 140,
+    "durationMinutes": 135
+  },
+  {
+    "title": "Dear Evan Hansen",
+    "year": 2015,
+    "composer": "Benj Pasek",
+    "isBroadwayHit": true,
+    "genres": ["Drama", "Musical", "Contemporary"],
+    "ratings": { "critics": 8.6, "audience": 9.1 },
+    "ticketPrice": 180,
+    "durationMinutes": 145
+  },
+  {
+    "title": "Hairspray",
+    "year": 2002,
+    "composer": "Marc Shaiman",
+    "isBroadwayHit": true,
+    "genres": ["Comedy", "Musical", "Family"],
+    "ratings": { "critics": 8.3, "audience": 8.9 },
+    "ticketPrice": 130,
+    "durationMinutes": 150
+  },
+  {
+    "title": "Rent",
+    "year": 1996,
+    "composer": "Jonathan Larson",
+    "isBroadwayHit": true,
+    "genres": ["Drama", "Musical", "Romance"],
+    "ratings": { "critics": 8.7, "audience": 9.0 },
+    "ticketPrice": 145,
+    "durationMinutes": 140
+  },
+  {
+    "title": "Cats",
+    "year": 1981,
+    "composer": "Andrew Lloyd Webber",
+    "isBroadwayHit": true,
+    "genres": ["Fantasy", "Musical", "Family"],
+    "ratings": { "critics": 7.9, "audience": 8.5 },
+    "ticketPrice": 150,
+    "durationMinutes": 155
+  }
+]
