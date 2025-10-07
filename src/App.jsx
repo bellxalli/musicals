@@ -1,13 +1,17 @@
-import { useState } from 'react'
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-// import musicals from 
+import Musicals from "./data/musicals.json"
 import './App.css'
 
 
 function App() {
+
   return (
     <>
+      <Header />
+      
+      <Footer />
+
     </>
   )
 }
