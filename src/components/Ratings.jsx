@@ -1,4 +1,7 @@
 
+import musicals from "../data/musicals.json";
+
+
 export default function RatingCard(){
 
     return(
@@ -7,14 +10,19 @@ export default function RatingCard(){
 
             <p> RatingCard </p>
 
-            {/* Critic Ratings */}
+    <div className="rating-card">
+            <h3>{musicals.title}</h3>
 
-            {/* AUdience Ratings */}
+        <div>
 
+        <CriticRatings critics={musicals.ratings.critics} />
+        <AudienceRatings audience={musicals.ratings.audience} />
 
         </div>
 
+    </div>
 
+        </div>
     )
 
 }
@@ -24,12 +32,14 @@ export default function RatingCard(){
 
 export function CriticRatings(){
 
+    <CriticRatings critics={musicals.ratings.critics} />
+
     return(
 
+        
+
         <div>
-
-            <p> Critic Ratings </p>
-
+            <p>Critic Rating: {critics}/10</p>
         </div>
 
     )
@@ -40,10 +50,8 @@ export function AudienceRatings(){
 
     return(
 
-        <div>
-
-            <p> Audience Ratings </p>
-
+         <div>
+            <p>Audience Rating: {audience}/10</p>
         </div>
 
     )

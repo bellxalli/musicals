@@ -5,7 +5,7 @@ export default function Footer(){
 
         <header>
 
-            <p> this is the header </p>
+            <h1> Musical Collection </h1>
 
         </header>
 
