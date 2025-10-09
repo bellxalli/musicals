@@ -27,6 +27,55 @@ footer{
     flex-direction: row;
     justify-content: center;
     padding: 1px;
-    background-color: rgb(253, 243, 254);
+    background-color: rgb(77, 0, 81);
+    color: rgb(195, 172, 0);
+    border-radius: 50px;
 
+
+}
+
+.musical-card {
+  background-color: #1e0033a1; /* dark purple */
+  color: #f8e08e; /* dark gold text */
+  border-radius: 16px;
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+  margin: 1rem 2.5rem 1rem 2.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  font-family: "Georgia", "Times New Roman", serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.musical-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.musical-card h2 {
+  color: #ffcc00; /* brighter gold for header */
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.musical-card p {
+  line-height: 1.5;
+}
+
+.musical-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.musical-card li {
+  background: rgba(255, 215, 0, 0.1);
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem 0;
+  border-left: 3px solid #ffcc00;
+  border-radius: 4px;
 }

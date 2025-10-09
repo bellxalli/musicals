@@ -3,8 +3,8 @@ import BroadwayHit from "./BroadwayHit"
 
 function Musical(props) {
   return (
-    <div>
-      <hr />
+    <div className="musical-card">
+      {/* <hr /> */}
       <h2>{props.title}</h2>
       <Ratings {...props} />
       <BroadwayHit musical={props} />
