@@ -24,7 +24,8 @@ export function AudienceRatings({ ratings }) {
 
 export function BestRatings({ ratings }) {
   
-    if (ratings.critics > 9 && ratings.audience > 9) {
+    const avgRating = (ratings.critics + ratings.audience) / 2;
+    if (avgRating > 9) {
     return <p>Rated great by all! 👍</p>
     } else {
 
