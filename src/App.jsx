@@ -11,7 +11,7 @@ function App() {
 
   Musicals.musicals.forEach((m, index) => {
 
-    musicalElements.push(<Musical key={index} {...m} />)
+    musicalElements.push(<Musical key={index}/>)
 
   })
 
